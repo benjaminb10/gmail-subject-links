@@ -38,4 +38,4 @@ Gmail does not offer an API for its interface, so the extension finds subjects t
 
 ## License
 
-MIT
+MIT. See also the [privacy policy](PRIVACY.md).

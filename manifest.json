@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Subject Links",
+  "version": "1.0.0",
+  "description": "Makes URLs in Gmail subject lines clickable.",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
